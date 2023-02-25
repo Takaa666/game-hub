@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37.26 64.49">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        font-family: NiagaraEngraved-Reg, 'Niagara Engraved';
+      }
+
+      .cls-1, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-4 {
+        font-size: 13.81px;
+      }
+
+      .cls-2 {
+        fill: #f7931e;
+        font-size: 57.77px;
+      }
+
+      .cls-3 {
+        font-size: 57.23px;
+      }
+
+      .cls-4 {
+        fill: #fbb03b;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <text class="cls-2" transform="translate(0 49.1)"><tspan x="0" y="0">G</tspan></text>
+    <text class="cls-3" transform="translate(18.96 49.21)"><tspan x="0" y="0">H</tspan></text>
+    <text class="cls-1" transform="translate(1.16 61.29)"><tspan x="0" y="0">Game</tspan></text>
+    <text class="cls-4" transform="translate(22.48 61.78)"><tspan x="0" y="0">Hub</tspan></text>
+  </g>
+</svg>
