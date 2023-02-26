@@ -18,10 +18,10 @@
               </center>
                 <div class="card-body">
                     <h5 class="card-title fw-bold" style="color:orange;" >{{ $games->nama_game }}</h5>
-                    <p class="card-text text-white">Developer: {{ $games->id_developer }}</p>
-                    <p class="card-text text-white">Platform: {{ $games->id_platform }}</p>
-                    <p class="card-text text-white">Genre: {{ $games->id_genre }}</p>
-                    <p class="card-text ">Harga: Rp.{{ $games->harga }}</p>
+                    <p class="card-text text-white">Developer: {{ $games->Developer->nama_perusahaan}}</p>
+                    <p class="card-text text-white">Platform: {{ $games->platform->jenis_platform }}</p>
+                    <p class="card-text text-white">Genre: {{ $games->genre->nama_genre }}</p>
+                    <p class="card-text text-white">Harga: Rp.{{ $games->harga }}</p>
                     <div class="d-flex justify-content-end">
                       <a class="btn btn-warning" href="{{url ('/store/detail/'.$games->id_game)}}" role="button">Detail</a>
                     </div>

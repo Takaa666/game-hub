@@ -2,7 +2,7 @@
 @section('content')
 <div class="container">
     <h1 class="text-white">Spin Ghoib</h1>
-    <p class="text-white">Dapatkan Diskon Ghoib Anda Dengan MMencet Tombol Putar!</p>
+    <p class="text-white">Dapatkan Diskon Ghoib Anda Dengan Memencet Tombol Putar!</p>
     <hr>
 
     <div class="text-center">

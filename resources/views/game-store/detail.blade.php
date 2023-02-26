@@ -39,7 +39,7 @@
         <p class="card-text text-white">Developer :{{$model->Developer->nama_perusahaan}}</p>
         <p class="card-text text-white">Platform :{{$model->platform->jenis_platform}}</p>
         <p class="card-text text-white">Deskripsi :  {{$model->deskripsi}}</p>
-        <p class="card-text text-white">Spesifikasi Rekomendasi : Intel i911000` , Nvidia Gforce RTX 3060 Ti </p>
+        <p class="card-text text-white">WEbsite Developer: {{$model->Developer->website_perusahaan}} </p>
       </div>
     </div>
 

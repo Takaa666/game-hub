@@ -20,9 +20,9 @@
 <div class="form-group">
   <label class="text-white mb-3 mt-3">Diskon</label>
   {!! Form::text('diskon', null, ['class' => 'form-control', 'id' => 'lastspin', 'readonly']) !!}
-  <label class="text-white">
+  {{-- <label class="text-white">
     <input type="checkbox" id="lastspin">Gunakan Diskon</label>
-</div>
+</div> --}}
 <div class="form-group">
   <label class="text-white mb-3 mt-3">Total Harga</label>
   {!! Form::text('total', null, ['class' => 'form-control', 'id' => 'total', 'readonly']) !!}

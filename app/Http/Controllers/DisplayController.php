@@ -106,7 +106,10 @@ use Yajra\DataTables\DataTables;
         }
     }
 
-
+    public function view($id_display) {
+        $model = display::findOrFail($id_display);
+        return view('display.view', ['model' => $model]);
+    }
     
     
     
